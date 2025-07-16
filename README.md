@@ -1,4 +1,4 @@
-# auth-using-cookies
+<img width="3370" height="1500" alt="image" src="https://github.com/user-attachments/assets/414ed2c1-0f89-4965-9b74-864b39060a0f" /># auth-using-cookies
 🔐 Authentication system using HTTP cookies in Node.js — handles login, logout, sessions, and user access control without storing tokens in localStorage.
 
 ## 📖 What is Authentication?
@@ -71,3 +71,16 @@ Cookies shine here because:
 - You **don’t need to manually attach tokens** on each request
 - Cookies are **automatically available in SSR** via headers
 - They provide **better security** using flags like `HttpOnly` and `Secure`
+
+## Authentication with cookies (Part 2)
+
+Signup
+<img width="3370" height="1500" alt="image" src="https://github.com/user-attachments/assets/99080b99-7698-4fc5-a148-dbf2f0ee7506" />
+
+Signin
+<img width="3412" height="1354" alt="image" src="https://github.com/user-attachments/assets/89ec7fa2-1dfe-4f10-a906-703cf99d6713" />
+
+Auth Endpoints
+<img width="3340" height="1116" alt="image" src="https://github.com/user-attachments/assets/35fd3d52-7de0-4dd2-9740-55735349dbab" />
+
+You don’t need to explicitly set the cookie header in the browser. It’s automatically set by the browser in every request
