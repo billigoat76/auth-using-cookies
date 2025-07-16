@@ -1,4 +1,3 @@
-<img width="3370" height="1500" alt="image" src="https://github.com/user-attachments/assets/414ed2c1-0f89-4965-9b74-864b39060a0f" /># auth-using-cookies
 🔐 Authentication system using HTTP cookies in Node.js — handles login, logout, sessions, and user access control without storing tokens in localStorage.
 
 ## 📖 What is Authentication?
